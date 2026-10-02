@@ -147,6 +147,7 @@
   min-width: 12.5px !important;
 }
 @media (-moz-platform: windows) {
+  padding-top: 0 !important;
   height: 48px !important;
 }
 }
@@ -4094,6 +4095,9 @@ img[src="chrome://global/skin/icons/more.svg"] {
 }
 }
 }
++@media (-moz-platform: windows) {
++  top: 0 !important;
++}
 }
 
 .titlebar-buttonbox {
